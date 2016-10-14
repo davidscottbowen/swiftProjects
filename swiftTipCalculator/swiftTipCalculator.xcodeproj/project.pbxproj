@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF37ABC51DAD407100B162E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37ABC41DAD407100B162E0 /* main.swift */; };
+		CF37ABCC1DAD408200B162E0 /* Io.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37ABCB1DAD408200B162E0 /* Io.swift */; };
+		CF37ABCE1DAD409000B162E0 /* Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37ABCD1DAD409000B162E0 /* Interactive.swift */; };
+		CF37ABD01DAD40A000B162E0 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF37ABCF1DAD40A000B162E0 /* TipCalculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF37ABBF1DAD407100B162E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF37ABC11DAD407100B162E0 /* swiftTipCalculatorGold */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftTipCalculatorGold; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF37ABC41DAD407100B162E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CF37ABCB1DAD408200B162E0 /* Io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Io.swift; sourceTree = "<group>"; };
+		CF37ABCD1DAD409000B162E0 /* Interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactive.swift; sourceTree = "<group>"; };
+		CF37ABCF1DAD40A000B162E0 /* TipCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF37ABBE1DAD407100B162E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF37ABB81DAD407100B162E0 = {
+			isa = PBXGroup;
+			children = (
+				CF37ABC31DAD407100B162E0 /* swiftTipCalculatorGold */,
+				CF37ABC21DAD407100B162E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF37ABC21DAD407100B162E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF37ABC11DAD407100B162E0 /* swiftTipCalculatorGold */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF37ABC31DAD407100B162E0 /* swiftTipCalculatorGold */ = {
+			isa = PBXGroup;
+			children = (
+				CF37ABC41DAD407100B162E0 /* main.swift */,
+				CF37ABCB1DAD408200B162E0 /* Io.swift */,
+				CF37ABCD1DAD409000B162E0 /* Interactive.swift */,
+				CF37ABCF1DAD40A000B162E0 /* TipCalculator.swift */,
+			);
+			path = swiftTipCalculatorGold;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF37ABC01DAD407100B162E0 /* swiftTipCalculatorGold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF37ABC81DAD407100B162E0 /* Build configuration list for PBXNativeTarget "swiftTipCalculatorGold" */;
+			buildPhases = (
+				CF37ABBD1DAD407100B162E0 /* Sources */,
+				CF37ABBE1DAD407100B162E0 /* Frameworks */,
+				CF37ABBF1DAD407100B162E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftTipCalculatorGold;
+			productName = swiftTipCalculatorGold;
+			productReference = CF37ABC11DAD407100B162E0 /* swiftTipCalculatorGold */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF37ABB91DAD407100B162E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Interapt;
+				TargetAttributes = {
+					CF37ABC01DAD407100B162E0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y8CEY24W2U;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF37ABBC1DAD407100B162E0 /* Build configuration list for PBXProject "swiftTipCalculatorGold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF37ABB81DAD407100B162E0;
+			productRefGroup = CF37ABC21DAD407100B162E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF37ABC01DAD407100B162E0 /* swiftTipCalculatorGold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF37ABBD1DAD407100B162E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF37ABCE1DAD409000B162E0 /* Interactive.swift in Sources */,
+				CF37ABD01DAD40A000B162E0 /* TipCalculator.swift in Sources */,
+				CF37ABC51DAD407100B162E0 /* main.swift in Sources */,
+				CF37ABCC1DAD408200B162E0 /* Io.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF37ABC61DAD407100B162E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF37ABC71DAD407100B162E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF37ABC91DAD407100B162E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y8CEY24W2U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF37ABCA1DAD407100B162E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y8CEY24W2U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF37ABBC1DAD407100B162E0 /* Build configuration list for PBXProject "swiftTipCalculatorGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF37ABC61DAD407100B162E0 /* Debug */,
+				CF37ABC71DAD407100B162E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF37ABC81DAD407100B162E0 /* Build configuration list for PBXNativeTarget "swiftTipCalculatorGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF37ABC91DAD407100B162E0 /* Debug */,
+				CF37ABCA1DAD407100B162E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF37ABB91DAD407100B162E0 /* Project object */;
+}
