@@ -1,8 +1,8 @@
 //
 //  Library.swift
-//  swiftLibraryBronze
+//  swiftLibrary
 //
-//  Created by David  Bowen on 10/12/16.
+//  Created by David  Bowen on 10/14/16.
 //  Copyright © 2016 Interapt. All rights reserved.
 //
 
@@ -23,11 +23,11 @@ class Book {
 
 class Library {
     
-//    var bookDictionary: [Int:String] = [:]
+    //    var bookDictionary: [Int:String] = [:]
     
     func addBook(book:Book) {
         bookDictionary[book.bookKey] = book.bookTitle
-          print("Book Added")
+        print("Book Added")
     }
     
     func borrowBook(book:Book) {

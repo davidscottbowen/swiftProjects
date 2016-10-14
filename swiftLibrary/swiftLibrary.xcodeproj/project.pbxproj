@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF0CAB3B1DAE958700F4FFEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CAB3A1DAE958700F4FFEF /* main.swift */; };
-		CF0CAB421DAEAA9E00F4FFEF /* Io.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CAB411DAEAA9E00F4FFEF /* Io.swift */; };
-		CF0CAB441DAEAAA900F4FFEF /* Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CAB431DAEAAA900F4FFEF /* Interactive.swift */; };
-		CF0CAB461DAEAABA00F4FFEF /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CAB451DAEAABA00F4FFEF /* Library.swift */; };
+		CF164B531DB159C000DA4621 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF164B521DB159C000DA4621 /* main.swift */; };
+		CF164B5A1DB15A0000DA4621 /* Io.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF164B591DB15A0000DA4621 /* Io.swift */; };
+		CF164B5C1DB15A1B00DA4621 /* Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF164B5B1DB15A1B00DA4621 /* Interactive.swift */; };
+		CF164B5E1DB15A2C00DA4621 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF164B5D1DB15A2C00DA4621 /* Library.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CF0CAB351DAE958700F4FFEF /* CopyFiles */ = {
+		CF164B4D1DB159C000DA4621 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,15 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CF0CAB371DAE958700F4FFEF /* swiftLibraryBronze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLibraryBronze; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF0CAB3A1DAE958700F4FFEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CF0CAB411DAEAA9E00F4FFEF /* Io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Io.swift; sourceTree = "<group>"; };
-		CF0CAB431DAEAAA900F4FFEF /* Interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactive.swift; sourceTree = "<group>"; };
-		CF0CAB451DAEAABA00F4FFEF /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		CF164B4F1DB159C000DA4621 /* swiftLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF164B521DB159C000DA4621 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CF164B591DB15A0000DA4621 /* Io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Io.swift; sourceTree = "<group>"; };
+		CF164B5B1DB15A1B00DA4621 /* Interactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactive.swift; sourceTree = "<group>"; };
+		CF164B5D1DB15A2C00DA4621 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CF0CAB341DAE958700F4FFEF /* Frameworks */ = {
+		CF164B4C1DB159C000DA4621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,103 +44,103 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF0CAB2E1DAE958600F4FFEF = {
+		CF164B461DB159C000DA4621 = {
 			isa = PBXGroup;
 			children = (
-				CF0CAB391DAE958700F4FFEF /* swiftLibraryBronze */,
-				CF0CAB381DAE958700F4FFEF /* Products */,
+				CF164B511DB159C000DA4621 /* swiftLibrary */,
+				CF164B501DB159C000DA4621 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CF0CAB381DAE958700F4FFEF /* Products */ = {
+		CF164B501DB159C000DA4621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF0CAB371DAE958700F4FFEF /* swiftLibraryBronze */,
+				CF164B4F1DB159C000DA4621 /* swiftLibrary */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF0CAB391DAE958700F4FFEF /* swiftLibraryBronze */ = {
+		CF164B511DB159C000DA4621 /* swiftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				CF0CAB3A1DAE958700F4FFEF /* main.swift */,
-				CF0CAB411DAEAA9E00F4FFEF /* Io.swift */,
-				CF0CAB451DAEAABA00F4FFEF /* Library.swift */,
-				CF0CAB431DAEAAA900F4FFEF /* Interactive.swift */,
+				CF164B521DB159C000DA4621 /* main.swift */,
+				CF164B591DB15A0000DA4621 /* Io.swift */,
+				CF164B5B1DB15A1B00DA4621 /* Interactive.swift */,
+				CF164B5D1DB15A2C00DA4621 /* Library.swift */,
 			);
-			path = swiftLibraryBronze;
+			path = swiftLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF0CAB361DAE958700F4FFEF /* swiftLibraryBronze */ = {
+		CF164B4E1DB159C000DA4621 /* swiftLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF0CAB3E1DAE958700F4FFEF /* Build configuration list for PBXNativeTarget "swiftLibraryBronze" */;
+			buildConfigurationList = CF164B561DB159C000DA4621 /* Build configuration list for PBXNativeTarget "swiftLibrary" */;
 			buildPhases = (
-				CF0CAB331DAE958700F4FFEF /* Sources */,
-				CF0CAB341DAE958700F4FFEF /* Frameworks */,
-				CF0CAB351DAE958700F4FFEF /* CopyFiles */,
+				CF164B4B1DB159C000DA4621 /* Sources */,
+				CF164B4C1DB159C000DA4621 /* Frameworks */,
+				CF164B4D1DB159C000DA4621 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = swiftLibraryBronze;
-			productName = swiftLibraryBronze;
-			productReference = CF0CAB371DAE958700F4FFEF /* swiftLibraryBronze */;
+			name = swiftLibrary;
+			productName = swiftLibrary;
+			productReference = CF164B4F1DB159C000DA4621 /* swiftLibrary */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CF0CAB2F1DAE958700F4FFEF /* Project object */ = {
+		CF164B471DB159C000DA4621 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Interapt;
 				TargetAttributes = {
-					CF0CAB361DAE958700F4FFEF = {
+					CF164B4E1DB159C000DA4621 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Y8CEY24W2U;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = CF0CAB321DAE958700F4FFEF /* Build configuration list for PBXProject "swiftLibraryBronze" */;
+			buildConfigurationList = CF164B4A1DB159C000DA4621 /* Build configuration list for PBXProject "swiftLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CF0CAB2E1DAE958600F4FFEF;
-			productRefGroup = CF0CAB381DAE958700F4FFEF /* Products */;
+			mainGroup = CF164B461DB159C000DA4621;
+			productRefGroup = CF164B501DB159C000DA4621 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF0CAB361DAE958700F4FFEF /* swiftLibraryBronze */,
+				CF164B4E1DB159C000DA4621 /* swiftLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CF0CAB331DAE958700F4FFEF /* Sources */ = {
+		CF164B4B1DB159C000DA4621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF0CAB441DAEAAA900F4FFEF /* Interactive.swift in Sources */,
-				CF0CAB461DAEAABA00F4FFEF /* Library.swift in Sources */,
-				CF0CAB3B1DAE958700F4FFEF /* main.swift in Sources */,
-				CF0CAB421DAEAA9E00F4FFEF /* Io.swift in Sources */,
+				CF164B5C1DB15A1B00DA4621 /* Interactive.swift in Sources */,
+				CF164B5E1DB15A2C00DA4621 /* Library.swift in Sources */,
+				CF164B531DB159C000DA4621 /* main.swift in Sources */,
+				CF164B5A1DB15A0000DA4621 /* Io.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CF0CAB3C1DAE958700F4FFEF /* Debug */ = {
+		CF164B541DB159C000DA4621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		CF0CAB3D1DAE958700F4FFEF /* Release */ = {
+		CF164B551DB159C000DA4621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +228,7 @@
 			};
 			name = Release;
 		};
-		CF0CAB3F1DAE958700F4FFEF /* Debug */ = {
+		CF164B571DB159C000DA4621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Y8CEY24W2U;
@@ -237,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		CF0CAB401DAE958700F4FFEF /* Release */ = {
+		CF164B581DB159C000DA4621 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = Y8CEY24W2U;
@@ -249,25 +249,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF0CAB321DAE958700F4FFEF /* Build configuration list for PBXProject "swiftLibraryBronze" */ = {
+		CF164B4A1DB159C000DA4621 /* Build configuration list for PBXProject "swiftLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF0CAB3C1DAE958700F4FFEF /* Debug */,
-				CF0CAB3D1DAE958700F4FFEF /* Release */,
+				CF164B541DB159C000DA4621 /* Debug */,
+				CF164B551DB159C000DA4621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF0CAB3E1DAE958700F4FFEF /* Build configuration list for PBXNativeTarget "swiftLibraryBronze" */ = {
+		CF164B561DB159C000DA4621 /* Build configuration list for PBXNativeTarget "swiftLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF0CAB3F1DAE958700F4FFEF /* Debug */,
-				CF0CAB401DAE958700F4FFEF /* Release */,
+				CF164B571DB159C000DA4621 /* Debug */,
+				CF164B581DB159C000DA4621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CF0CAB2F1DAE958700F4FFEF /* Project object */;
+	rootObject = CF164B471DB159C000DA4621 /* Project object */;
 }

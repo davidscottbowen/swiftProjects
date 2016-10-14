@@ -1,10 +1,12 @@
 //
 //  main.swift
-//  swiftLibraryBronze
+//  swiftLibrary
 //
-//  Created by David  Bowen on 10/12/16.
+//  Created by David  Bowen on 10/14/16.
 //  Copyright © 2016 Interapt. All rights reserved.
 //
+
+import Foundation
 
 import Foundation
 
