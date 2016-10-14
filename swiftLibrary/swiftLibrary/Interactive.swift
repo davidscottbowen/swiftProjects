@@ -13,13 +13,27 @@ class Interactive {
     private var currentInput: String = ""
     private var io = Io()
     
-
     
     func go() {
         
+        let library = Library()
+        
+        var myBook = Book(bookKey: 1, bookTitle: "Catcher in the Rye")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 2, bookTitle: "The Hunger Games")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 3, bookTitle: "Swift for Dummies")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 4, bookTitle: "Interview with the Vampire")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 5, bookTitle: "The Notebook")
+        library.addBook(book:myBook)
+        
         while !done {
-            
-            fillLibrary()
             
             io.writeMessage("\nEnter h for help/options or q to quit")
             
@@ -80,7 +94,30 @@ class Interactive {
     }
     
     func checkOutBook(){
+        
         print("*** Check Out Book ***")
+        
+        io.writeMessage("\nBook Key to check out")
+        currentInput = io.getInput()
+        
+        guard let bookKey = Int(currentInput) else {
+            io.writeMessage("Your input was not an Int.")
+            return
+        }
+        
+        io.writeMessage("\nBook Title to check out")
+        currentInput = io.getInput()
+        
+        guard let bookTitle = String(currentInput) else {
+            io.writeMessage("Your input was not an String.")
+            return
+        }
+        
+        let myBook = Book(bookKey: bookKey, bookTitle: bookTitle)
+        
+        let library = Library()
+        
+        library.borrowBook(book:myBook)
     }
     
     func listBooks(){
@@ -97,22 +134,4 @@ class Interactive {
         io.writeMessage("Enter l to list all books currently in Library")
     }
     
-    func fillLibrary(){
-        let library = Library()
-        
-        var myBook = Book(bookKey: 1, bookTitle: "Catcher in the Rye")
-        library.addBook(book:myBook)
-        
-        myBook = Book(bookKey: 2, bookTitle: "The Hunger Games")
-        library.addBook(book:myBook)
-        
-        myBook = Book(bookKey: 3, bookTitle: "Swift for Dummies")
-        library.addBook(book:myBook)
-        
-        myBook = Book(bookKey: 4, bookTitle: "Interview with the Vampire")
-        library.addBook(book:myBook)
-        
-        myBook = Book(bookKey: 5, bookTitle: "The Notebook")
-        library.addBook(book:myBook)
-    }
 }

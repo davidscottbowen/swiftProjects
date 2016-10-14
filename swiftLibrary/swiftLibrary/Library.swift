@@ -27,12 +27,13 @@ class Library {
     
     func addBook(book:Book) {
         bookDictionary[book.bookKey] = book.bookTitle
-        print("Book Added")
     }
     
     func borrowBook(book:Book) {
-        print("you borrowed a book")
+        let now = Date()
+        print("you checked out the book \(now)")
         bookDictionary.removeValue(forKey: book.bookKey)
+        
     }
     
     func returnBook(book:Book) {
