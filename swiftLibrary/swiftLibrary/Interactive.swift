@@ -35,7 +35,7 @@ class Interactive {
         
         while !done {
             
-            io.writeMessage("\nEnter h for help/options or q to quit")
+            io.writeMessage("Enter h for help/options or q to quit")
             
             currentInput = io.getInput()
             

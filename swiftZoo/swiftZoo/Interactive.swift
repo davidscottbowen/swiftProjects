@@ -126,7 +126,7 @@ class Interactive {
     }
     
     func help(){
-        io.writeMessage("*** HELP MENU ***")
+        io.writeMessage("*** HELP MENU***")
         io.writeMessage("Enter a to add an animal to the Zoo")
         io.writeMessage("Enter c to remove an animal")
         io.writeMessage("Enter i to return an animal")

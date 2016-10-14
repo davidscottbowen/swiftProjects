@@ -39,7 +39,7 @@ class Interactive {
     
     func calculateTip() {
         
-        print("*** TIP CALCULATOR ***")
+        print("*** TIP CALCULATOR***")
         var foodCost: Double
         var taxPercentage: Double
         var tipAmount: Double
