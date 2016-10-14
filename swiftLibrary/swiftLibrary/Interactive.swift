@@ -13,9 +13,13 @@ class Interactive {
     private var currentInput: String = ""
     private var io = Io()
     
+
+    
     func go() {
         
         while !done {
+            
+            fillLibrary()
             
             io.writeMessage("\nEnter h for help/options or q to quit")
             
@@ -91,5 +95,19 @@ class Interactive {
         io.writeMessage("Enter c to check out a book")
         io.writeMessage("Enter i to check in a book")
         io.writeMessage("Enter l to list all books currently in Library")
+    }
+    
+    func fillLibrary(){
+        let library = Library()
+        
+        var myBook = Book(bookKey: 1, bookTitle: "Catcher in the Rye")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 2, bookTitle: "The Hunger Games")
+        library.addBook(book:myBook)
+        
+        
+        myBook = Book(bookKey: 3, bookTitle: "Swift for Dummies")
+        library.addBook(book:myBook)
     }
 }
