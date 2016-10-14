@@ -106,8 +106,13 @@ class Interactive {
         myBook = Book(bookKey: 2, bookTitle: "The Hunger Games")
         library.addBook(book:myBook)
         
-        
         myBook = Book(bookKey: 3, bookTitle: "Swift for Dummies")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 4, bookTitle: "Interview with the Vampire")
+        library.addBook(book:myBook)
+        
+        myBook = Book(bookKey: 5, bookTitle: "The Notebook")
         library.addBook(book:myBook)
     }
 }

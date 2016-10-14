@@ -21,12 +21,13 @@ class Interactive {
             io.writeMessage("\nEnter c to calculate or q to quit")
             currentInput = io.getInput()
             
-            if currentInput == "q" {
+            
+            switch(currentInput){
+            case "q":
                 done = true
-                
-            } else if currentInput == "c" {
+            case "c":
                 calculateTip()
-            } else {
+            default:
                 print("The input is: \(currentInput)")
             }
             
@@ -38,7 +39,7 @@ class Interactive {
     
     func calculateTip() {
         
-        print("*** ENTER BILL INPUT ***")
+        print("*** TIP CALCULATOR ***")
         var foodCost: Double
         var taxPercentage: Double
         var tipAmount: Double
