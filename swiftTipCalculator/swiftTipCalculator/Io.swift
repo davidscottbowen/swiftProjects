@@ -1,8 +1,8 @@
 //
 //  Io.swift
-//  swiftTipCalculatorGold
+//  swiftTipCalculator
 //
-//  Created by David  Bowen on 10/11/16.
+//  Created by David  Bowen on 10/14/16.
 //  Copyright © 2016 Interapt. All rights reserved.
 //
 

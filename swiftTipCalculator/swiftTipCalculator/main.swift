@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  swiftTipCalculatorGold
+//  swiftTipCalculator
 //
-//  Created by David  Bowen on 10/11/16.
+//  Created by David  Bowen on 10/14/16.
 //  Copyright © 2016 Interapt. All rights reserved.
 //
 
@@ -14,3 +14,4 @@ let interactive = Interactive ()
 interactive.go()
 
 exit(EXIT_SUCCESS)
+
