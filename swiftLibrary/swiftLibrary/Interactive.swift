@@ -47,7 +47,9 @@ class Interactive {
             case "i":
                 checkInBook()
             case "l":
-                listBooks()
+                listInBooks()
+            case "o":
+                listOutBooks()
             case "h":
                 help()
             case "q":
@@ -120,10 +122,16 @@ class Interactive {
         library.borrowBook(book:myBook)
     }
     
-    func listBooks(){
-        print("*** List all Books ***")
+    func listInBooks(){
+        print("*** List all Books currently in the Library ***")
         let library = Library()
-        library.allBooks()
+        library.allInBooks()
+    }
+    
+    func listOutBooks(){
+        print("*** List all Books currently checked out of the Library ***")
+        let library = Library()
+        library.allOutBooks()
     }
     
     func help(){
@@ -131,7 +139,8 @@ class Interactive {
         io.writeMessage("Enter a to add a book to the Library")
         io.writeMessage("Enter c to check out a book")
         io.writeMessage("Enter i to check in a book")
-        io.writeMessage("Enter l to list all books currently in Library")
+        io.writeMessage("Enter l to list all books currently checked in the Library")
+        io.writeMessage("Enter o to list all books currently checked out of Library")
     }
     
 }

@@ -9,6 +9,7 @@
 import Foundation
 
 var bookDictionary: [Int:String] = [:]
+var outDictionary: [Int:String] = [:]
 
 class Book {
     var bookKey: Int
@@ -23,16 +24,16 @@ class Book {
 
 class Library {
     
-    //    var bookDictionary: [Int:String] = [:]
-    
     func addBook(book:Book) {
         bookDictionary[book.bookKey] = book.bookTitle
     }
     
     func borrowBook(book:Book) {
         let now = Date()
+        
         print("you checked out the book \(now)")
         bookDictionary.removeValue(forKey: book.bookKey)
+        outDictionary[book.bookKey] = book.bookTitle
         
     }
     
@@ -41,10 +42,19 @@ class Library {
         bookDictionary[book.bookKey] = book.bookTitle
     }
     
-    func allBooks() {
-        print("There are \(bookDictionary.count) books in the Library")
+    func allInBooks() {
+        print("There are \(bookDictionary.count) books checked in the Library")
         for i in bookDictionary.values {
             print(i)
         }
     }
+    
+    func allOutBooks() {
+        print("There are \(outDictionary.count) books checked out of the Library")
+        for i in outDictionary.values {
+            print(i)
+        }
+    }
+    
+    
 }
