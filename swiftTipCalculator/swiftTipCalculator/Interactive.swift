@@ -18,15 +18,18 @@ class Interactive {
         while !done {
             
             //Ask user for input right here.
-            io.writeMessage("\nEnter c to calculate or q to quit")
+            io.writeMessage("***** TIP CALCULATOR *****\n")
+            io.writeMessage("Enter h for help")
             currentInput = io.getInput()
-            
+        
             
             switch(currentInput){
             case "q":
                 done = true
             case "c":
                 calculateTip()
+            case "h":
+                help()
             default:
                 print("The input is: \(currentInput)")
             }
@@ -51,16 +54,18 @@ class Interactive {
         
         foodCost = (currentInput as NSString).doubleValue
         
-        print("You entered \(foodCost) bill subtotal")
+        print("You entered $\(foodCost) bill subtotal")
         
         // Ask how much the tax percent is
         
-        io.writeMessage("\nWhat is tax percent?")
-        currentInput = io.getInput()
+//        io.writeMessage("\nWhat is tax percent?")
+//        currentInput = io.getInput()
+//        
+//        taxPercentage = (currentInput as NSString).doubleValue
         
-        taxPercentage = (currentInput as NSString).doubleValue
+        taxPercentage = 0.06
         
-        print("You entered \(taxPercentage) tax percent")
+        print("KY tax is $\(taxPercentage) percent")
         
         // Ask how much the tip amount is
         
@@ -69,20 +74,24 @@ class Interactive {
         
         tipAmount = (currentInput as NSString).doubleValue
         
-        print("You entered \(tipAmount) for the tip")
+        print("You entered $\(tipAmount) for the tip")
         
         io.writeMessage("\nHow many people spliting the bill?")
         currentInput = io.getInput()
         
         party = (currentInput as NSString).integerValue
         
-        print("You entered \(party) for peope spliting bill")
+        print("You entered \(party) for people spliting bill")
         
         let myTipCalculator = TipCalculator(foodCost: foodCost, taxPercentage: taxPercentage, tipAmount: tipAmount, party: party)
         
         myTipCalculator.output()
-        
-        
+    }
+    
+    func help(){
+        io.writeMessage("Enter c to calculate")
+        io.writeMessage("Enter h for help")
+        io.writeMessage("Enter q to quit")
     }
     
     
