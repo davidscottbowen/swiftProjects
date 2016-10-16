@@ -265,6 +265,7 @@
 				CF164B581DB159C000DA4621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

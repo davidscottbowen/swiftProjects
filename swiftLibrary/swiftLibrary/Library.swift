@@ -32,12 +32,12 @@ class Library {
         let now = Date()
         let due = now + 1209600
         print("you checked out the book")
-        print(now)
+        print(bookDictionary[book.bookKey]!)
+        print("\(now)\n")
         print("The book is due to the Library by")
-        print(due)
+        print("\(due)\n")
         bookDictionary.removeValue(forKey: book.bookKey)
         outDictionary[book.bookKey] = book.bookTitle
-        
     }
     
     func returnBook(book:Book) {
@@ -59,6 +59,5 @@ class Library {
             print(i)
         }
     }
-    
     
 }

@@ -65,7 +65,6 @@ class Interactive {
     }
     
     func addBook() {
-        
         print("*** ADD BOOK TO LIBRARY ***")
         
         io.writeMessage("\nBook Key")
@@ -107,13 +106,7 @@ class Interactive {
             return
         }
         
-        io.writeMessage("\nBook Title to check out")
-        currentInput = io.getInput()
-        
-        guard let bookTitle = String(currentInput) else {
-            io.writeMessage("Your input was not an String.")
-            return
-        }
+        let bookTitle = bookDictionary[bookKey]!
         
         let myBook = Book(bookKey: bookKey, bookTitle: bookTitle)
         
