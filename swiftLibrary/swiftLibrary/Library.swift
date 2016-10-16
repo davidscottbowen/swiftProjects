@@ -30,15 +30,19 @@ class Library {
     
     func borrowBook(book:Book) {
         let now = Date()
-        
-        print("you checked out the book \(now)")
+        let due = now + 1209600
+        print("you checked out the book")
+        print(now)
+        print("The book is due to the Library by")
+        print(due)
         bookDictionary.removeValue(forKey: book.bookKey)
         outDictionary[book.bookKey] = book.bookTitle
         
     }
     
     func returnBook(book:Book) {
-        print("you returned a book")
+        let now1 = Date()
+        print("you returned a book \(now1)")
         bookDictionary[book.bookKey] = book.bookTitle
     }
     
