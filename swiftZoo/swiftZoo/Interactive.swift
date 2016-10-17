@@ -130,6 +130,7 @@ class Interactive {
         io.writeMessage("Enter a to add an animal to the Zoo")
         io.writeMessage("Enter c to remove an animal")
         io.writeMessage("Enter i to return an animal")
+        io.writeMessage("Enter p to add a person to the Zoo")
         io.writeMessage("Enter la to list all animals currently in Zoo")
         io.writeMessage("Enter lp to list all people currently in Zoo")
     }
